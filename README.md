@@ -4,6 +4,7 @@ following the freecodecamp git guide
 ## resources
 * https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/  
 * https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6
+* https://webkul.com/blog/syncing-local-repository-with-remote-repository-on-github/ *!! for synching local repository with remote*  
 
 ## using command line (cli)
 -> `cd c:\git\docker-node-quickstart` *!!navigate to local dir*  
@@ -30,7 +31,7 @@ copy url or github repository
 *!!git default uses main, not master; should push to main*  
 -> `git log`    *!!shows the commits*  
 -> `git push -u origin --all`    *!!use this push command for first time push*  
--> `git remote -v`   *!!show remote repositories*
+-> `git remote -v`   *!!show remote repositories*  
 
 ### optional commands
 -> `git pull origin master`       *!!pulls the latest changes in the master branch in the remote repository to the local repository*  
