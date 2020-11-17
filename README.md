@@ -30,6 +30,7 @@ copy url or github repository
 *!!git default uses main, not master; should push to main*  
 -> `git log`    *!!shows the commits*  
 -> `git push -u origin --all`    *!!use this push command for first time push*  
+-> `git remote -v`   *!!show remote repositories*
 
 ### optional commands
 -> `git pull origin master`       *!!pulls the latest changes in the master branch in the remote repository to the local repository*  
