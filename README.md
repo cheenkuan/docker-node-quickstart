@@ -111,7 +111,7 @@ copy url or github repository
 ```
 
 ## using command line
--> `docker build --tag docker-node-quickstart` .                *!! builds the docker image*  
+-> `docker build --tag docker-node-quickstart . `               *!! builds the docker image*  
 -> `docker run --publish 8000:8080 docker-node-quickstart`      *!! starts the container and expose port 8000 to port 8000 on the host*  
 -> `docker run -d -p 8000:8000 docker-node-quickstart`          *!! alternative to above to run the container in detached mode*  
   
