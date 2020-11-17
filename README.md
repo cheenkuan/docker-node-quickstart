@@ -28,8 +28,8 @@ copy url or github repository
 -> `git remote add origin https://github.com/cheenkuan/docker-node-quickstart.git`    *!!repository url*  
 -> `git push -u origin main`   *!!pushes code from the master branch in the local repository to the master branch in the remote repository*  
 *!!git default uses main, not master; should push to main*  
--> `git log`    *!!shows the commits*
--> `git push -u origin --all`    *!!use this push command for first time push*
+-> `git log`    *!!shows the commits*  
+-> `git push -u origin --all`    *!!use this push command for first time push*  
 
 ### optional commands
 -> `git pull origin master`       *!!pulls the latest changes in the master branch in the remote repository to the local repository*  
