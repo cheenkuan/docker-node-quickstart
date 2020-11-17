@@ -125,6 +125,7 @@ copy url or github repository
 -> `docker stop <name_of_container>`                                            *!! stops a container*  
 -> `docker restart <name_of_container>`                                         *!! restarts a stopped container*  
 -> `docker rm <name_of_container>`                                              *!! removes a container; removed container will not remain resident in stopped state*  
+-> `docker ps -a` or `docker ps --all`						*!! list all running docker containers*  
 
 
 
