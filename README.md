@@ -36,6 +36,9 @@ copy url or github repository
 ### optional commands
 -> `git pull origin master`       *!!pulls the latest changes in the master branch in the remote repository to the local repository*  
 -> `git clone [repository url]`   *!!clones an existing remote repository into local*  
+-> `git branch -m <oldname> <newname>`  	*!! change branch name*  
+-> `git branch -m <newname>`			*!! if change name of current branch, then there is no need to specify old name*  
+-> `git branch -M <newname>`			*!! if using case-sensitive file system and mane change is only for change in case, use -M*  
 
 # following docker quickstart guide for building and running images; and sharing images on Docker Hub
 
