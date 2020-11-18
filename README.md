@@ -128,6 +128,7 @@ copy url or github repository
 -> `docker ps -a` or `docker ps --all`						*!! list all running docker containers*  :latest
 -> `docker tag <IMAGE ID> cheenkuan/docker-node-quickstart:latest`		*!! tagging image to Docker Hub remote repository*  
 -> `docker push cheenkuan/docker-node-quickstart`				*!! push image to Docker Hub remote repository*  
+-> `docker restart <container name>`						*!! restart a stopped container*  
 
 
 
