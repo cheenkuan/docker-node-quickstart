@@ -41,6 +41,9 @@ copy url or github repository
 -> `git branch -M <newname>`			*!! if using case-sensitive file system and mane change is only for change in case, use -M*  
 -> `git branch <branch-name> --set-upstream-to=origin/<branch-name-in-remote>`	*!! connecting/changing of local branch with remote branch*  
 -> `git branch --unset-upstream`	*!! disconnecting link between local branch and remote branch*  
+-> `git branch -d <local_branch_name>`	*!! delete local branch*  
+-> `git push origin --delete <remote_branch_name>`	*!! delete remote branch*  
+-> `git pull origin master`	*!! pulling changes from the remote repo, eg changes to Readme file*  
 
 # following docker quickstart guide for building and running images; and sharing images on Docker Hub
 
