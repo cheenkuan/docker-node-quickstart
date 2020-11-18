@@ -125,9 +125,9 @@ copy url or github repository
 -> `docker stop <name_of_container>`                                            *!! stops a container*  
 -> `docker restart <name_of_container>`                                         *!! restarts a stopped container*  
 -> `docker rm <name_of_container>`                                              *!! removes a container; removed container will not remain resident in stopped state*  
--> `docker ps -a` or `docker ps --all`						*!! list all running docker containers*  :latest
+-> `docker ps -a` or `docker ps --all`						*!! list all running docker containers*  
 -> `docker tag <IMAGE ID> cheenkuan/docker-node-quickstart:latest`		*!! tagging image to Docker Hub remote repository*  
--> `docker push cheenkuan/docker-node-quickstart`				*!! push image to Docker Hub remote repository*  
+-> `docker push cheenkuan/docker-node-quickstart:latest`			*!! push image to Docker Hub remote repository*  
 -> `docker restart <container name>`						*!! restart a stopped container*  
 
 
