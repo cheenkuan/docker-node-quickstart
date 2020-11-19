@@ -1,5 +1,5 @@
 # docker-node-quickstart
-following the freecodecamp git guide
+following the freecodecamp git guide - a project to help learn how to use git and docker containers
 
 ## resources
 * https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/  
